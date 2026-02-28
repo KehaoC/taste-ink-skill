@@ -1,0 +1,29 @@
+{
+  "name": "taste-ink-skill",
+  "version": "0.1.0",
+  "description": "Install the Taste skill into Claude Code with one command.",
+  "author": "kyrie cai",
+  "license": "MIT",
+  "bin": {
+    "taste-ink-skill": "bin/install.js",
+    "install-taste-ink": "bin/install.js"
+  },
+  "files": [
+    "README.md",
+    "bin",
+    "SKILL.md",
+    "agents",
+    "references",
+    "scripts"
+  ],
+  "scripts": {
+    "prepublishOnly": "npm pack --dry-run",
+    "pack:check": "npm pack --dry-run"
+  },
+  "keywords": [
+    "claude-code",
+    "agent-skill",
+    "taste",
+    "installer"
+  ]
+}
